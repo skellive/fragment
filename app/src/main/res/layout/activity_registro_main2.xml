@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#777777"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".vista.RegistroMain2Activity">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-30dp"
+        app:srcCompat="@drawable/agregar" />
+
+    <EditText
+        android:id="@+id/edittext_nombre"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-30dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/usuario"
+        android:hint="@string/nombre" />
+
+    <EditText
+        android:id="@+id/edittext_apellido"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/usuario"
+        android:hint="@string/apellido" />
+
+    <EditText
+        android:id="@+id/edittext_nombre_usuario"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/usuario"
+        android:hint="@string/nombre_usuario" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edittext_conf_password"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/confirmar_contrase_a"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija su sexo:" />
+
+    <Spinner
+        android:id="@+id/spinnerSex"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="-25dp"
+        android:text="@string/recordar_contrase_a" />
+
+    <Button
+        android:id="@+id/button_registrar"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#1E2994"
+        android:text="@string/registrar"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/o"/>
+
+    <Button
+        android:id="@+id/button_Iniciar"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="#1E2994"
+        android:fontFamily="monospace"
+        android:text="@string/inicia_sesion"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

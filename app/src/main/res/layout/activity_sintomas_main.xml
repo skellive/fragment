@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#777777"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".vista.SintomasMainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/indique_cual_son_sus_sintomas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        app:fontFamily="sans-serif-medium" />
+
+    <Spinner
+        android:textSize="20dp"
+        android:id="@+id/spinner"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F5F4F4"
+        android:padding="10dip"
+        />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F5F4F4"
+        android:padding="10dip"
+        app:fontFamily="cursive"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dip"
+        android:backgroundTint="#F5F4F4"
+        android:fontFamily="sans-serif-smallcaps"
+        >
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dip"
+        android:backgroundTint="#F5F4F4"
+        android:fontFamily="sans-serif-smallcaps"
+        >
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F5F4F4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="10dip"></Spinner>
+
+    <Button
+        android:id="@+id/button_registrar"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/consultar"
+        android:background="#1E2994"
+        android:textColor="#FFFBFB"
+        android:textSize="10dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

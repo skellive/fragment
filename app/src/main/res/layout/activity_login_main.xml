@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#777777"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".vista.LoginMainActivity">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/edittext_usuario"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/usuario"
+        android:hint="@string/nombre_usuario" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="-25dp"
+        android:text="Guardar informacion" />
+
+    <Button
+        android:id="@+id/button_Iniciar"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#1E2994"
+        android:shadowColor="#001B0909"
+        android:text="@string/inicia_sesion"
+        android:textColor="#F7F2F2"
+        android:textSize="10dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:text="@string/o"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_registrar"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="#1E2994"
+        android:text="@string/registrar"
+        android:textColor="#FFFBFB"
+        android:textSize="10dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+</LinearLayout>

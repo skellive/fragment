@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_medicell">Medicell</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="confirmar_contrase_a">Confirmar Contraseña</string>
+    <string name="tienes_una_cuenta">Tienes una cuenta?</string>
+    <string name="inicia_sesion">Inicia Sesion</string>
+    <string name="usuario_no_registrado">Usuario no Registrado?</string>
+    <string name="registrar">Registrar</string>
+    <string name="apellido">Apellido</string>
+    <string name="nombre">Nombre</string>
+    <string name="usuarior">Usuario</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
+    <string name="o">o</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="otros">Otros Sintomas</string>
+    <string name="consultar">Consultar</string>
+    <string name="indique_cual_son_sus_sintomas">Indique cual son sus Sintomas:</string>
+    <string name="cual_es_su_sexo">¿Cual es su sexo?</string>
+    <string name="otro">Otro</string>
+    <string name="consultar_usuario_u_otro">¿Consultar Usuario u Otro?</string>
+    <string name="otros_sintomas">Otros Sintomas</string>
+    <string name="recordar_contrase_a">Recordar Contraseña</string>
+    <string name="txt_sintoma1">Sintoma 1</string>
+    <string name="txt_sintoma2">Sintoma 2</string>
+    <string name="txt_sintoma3">Sintoma 3</string>
+    <string name="txt_sintoma4">Sintoma 4</string>
+    <string name="txt__sintoma5">Sintoma 5</string>
+
+
+
+
+    <string name="URL_DIAGNOSTICO">http://192.168.1.3:8080/</string>
+
+</resources>
